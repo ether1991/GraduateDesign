@@ -16,8 +16,6 @@ from keras.layers import Dense, Dropout, Activation, Flatten
 from keras.layers import Embedding
 from keras.layers import Convolution1D, MaxPooling1D
 from keras.datasets import imdb
-from keras import backend as K
-
 
 # set parameters:
 max_features = 5000
