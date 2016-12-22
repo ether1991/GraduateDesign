@@ -2,11 +2,11 @@ import pandas
 from keras.layers import Dense, Input, Convolution1D, MaxPooling1D, UpSampling1D
 from keras.models import Model
 
-# dataframe = pandas.read_csv("/Users/liushaoji/ManageSAEData/day1.csv", header=0)
-# dataset = dataframe.values
-#
-# data = dataset[0:, 0:8]
-# label = dataset[0:, 8]
+dataframe = pandas.read_csv("/Users/liushaoji/ManageSAEData/day1.csv", header=0)
+dataset = dataframe.values
+
+data = dataset[0:, 0:8]
+label = dataset[0:, 8]
 
 # iris_data = pandas.read_csv("/Users/liushaoji/ManageSAEData/iris.txt", header=None )
 # data = iris_data.values
