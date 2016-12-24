@@ -17,7 +17,7 @@ from keras.layers import Convolution1D, MaxPooling1D
 
 # Embedding
 max_features = 5000000
-maxlen = 5
+maxlen = 8
 embedding_size = 128
 
 # Convolution
@@ -38,14 +38,15 @@ batch_size is highly sensitive.
 Only 2 epochs are needed as the dataset is very small.
 '''
 
-dataframe = pandas.read_csv("/Users/liushaoji/ManageSAEData/day01.csv", header=0)
+# dataframe = pandas.read_csv("/Users/liushaoji/PycharmProjects/GraduateDesign/file/day01.csv", header=0)
+dataframe = pandas.read_csv("/Users/liushaoji/PycharmProjects/GraduateDesign/file/stl_block_r1.csv", header=None)
 data = dataframe.values
 
 # iris_data = pandas.read_csv("/Users/liushaoji/ManageSAEData/iris.txt", header=None )
 # data = iris_data.values
 
-X_train = data[0:, :5]
-y_train = data[:, 5]
+X_train = data[0:, :8]
+y_train = data[:, 8]
 
 print('Build model...')
 
