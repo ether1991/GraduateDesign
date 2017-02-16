@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49664dd7-9131-45a7-8f4e-5662023e6604" name="Default" comment="" />
+    <list default="true" id="49664dd7-9131-45a7-8f4e-5662023e6604" name="Default" comment="2017.02.16">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/file/Day01_format.csv" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +20,7 @@
     <SUITE FILE_PATH="coverage/GraduateDesign$MyDeepAutoEncoder.coverage" NAME="MyDeepAutoEncoder Coverage Results" MODIFIED="1482734914453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$PrepareData.coverage" NAME="PrepareData Coverage Results" MODIFIED="1486297476655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$ManageWithCNN_RNN.coverage" NAME="ManageWithCNN_RNN Coverage Results" MODIFIED="1487076822868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
-    <SUITE FILE_PATH="coverage/GraduateDesign$FormatData_CP.coverage" NAME="FormatData_CP Coverage Results" MODIFIED="1487244151621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
+    <SUITE FILE_PATH="coverage/GraduateDesign$FormatData_CP.coverage" NAME="FormatData_CP Coverage Results" MODIFIED="1487252945261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$FormatData.coverage" NAME="FormatData Coverage Results" MODIFIED="1487214217808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$CutData.coverage" NAME="CutData Coverage Results" MODIFIED="1487143261445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$autoencoder.coverage" NAME="autoencoder Coverage Results" MODIFIED="1482245600945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
@@ -32,7 +35,7 @@
     <SUITE FILE_PATH="coverage/GraduateDesign$MyCNN_RNN_Model.coverage" NAME="MyCNN_RNN_Model Coverage Results" MODIFIED="1486302241341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$MyCNN_LSTM.coverage" NAME="MyCNN_LSTM Coverage Results" MODIFIED="1482743721402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$AE_STL.coverage" NAME="AE_STL Coverage Results" MODIFIED="1486302374709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
-    <SUITE FILE_PATH="coverage/GraduateDesign$ManageWithSVM.coverage" NAME="ManageWithSVM Coverage Results" MODIFIED="1487244781135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
+    <SUITE FILE_PATH="coverage/GraduateDesign$ManageWithSVM.coverage" NAME="ManageWithSVM Coverage Results" MODIFIED="1487253077530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$loadFile.coverage" NAME="loadFile Coverage Results" MODIFIED="1482734855798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$testSVM.coverage" NAME="testSVM Coverage Results" MODIFIED="1486295757662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
   </component>
@@ -42,55 +45,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="stl_perceptron_kfold3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/liushaoji/test/stl_perceptron_kfold3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="87" column="20" lean-forward="false" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyCNN_RNN_Model.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/liushaoji/test/MyCNN_RNN_Model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="63" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="116" selection-end-column="76" />
-              <folding>
-                <element signature="e#27#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Con_AE.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/liushaoji/test/Con_AE.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ManageWithCNN_RNN.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithCNN_RNN.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="29" />
-              <folding>
-                <element signature="e#27#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ManageWithSVM.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ManageWithSVM.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithSVM.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            <state relative-caret-position="251">
+              <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -98,21 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FormatData_CP.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/liushaoji/test/FormatData_CP.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ManageWithRBF.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithRBF.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+            <state relative-caret-position="737">
+              <caret line="39" column="34" lean-forward="false" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
               <folding>
                 <element signature="e#34#52#0" expanded="true" />
               </folding>
@@ -140,6 +89,7 @@
       <find>date[i]</find>
       <find>RBF</find>
       <find>kernel</find>
+      <find>n_features</find>
       <find>classifiers</find>
     </findStrings>
   </component>
@@ -179,6 +129,7 @@
         <option value="$PROJECT_DIR$/src/liushaoji/test/FormatData.py" />
         <option value="$PROJECT_DIR$/src/liushaoji/test/FormatData_CP.py" />
         <option value="$PROJECT_DIR$/src/liushaoji/test/ManageWithSVM.py" />
+        <option value="$PROJECT_DIR$/file/Day01_format.csv" />
       </list>
     </option>
   </component>
@@ -701,20 +652,27 @@
       <option name="project" value="LOCAL" />
       <updated>1487245118706</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2017.02.16">
+      <created>1487252654334</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1487252654334</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21030043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20171674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22191781" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28767124" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34657535" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35753426" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -772,18 +730,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="46" />
+      <option name="time" value="47" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/lib/python2.7/site-packages/Keras-1.2.0-py2.7.egg/keras/layers/recurrent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12369">
-          <caret line="656" column="33" lean-forward="false" selection-start-line="656" selection-start-column="23" selection-end-line="656" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/liushaoji/kerasDemo/imdb_lstm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1007">
@@ -981,24 +932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/MyCNN_RNN_Model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="63" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="116" selection-end-column="76" />
-          <folding>
-            <element signature="e#27#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/Con_AE.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/我的文件/轨迹数据集/交通预测SAE数据集/SFO_2008_Final_1.csv" />
     <entry file="file:///Library/Python/2.7/site-packages/pandas/io/parsers.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1026,14 +959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/stl_perceptron_kfold3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="87" column="20" lean-forward="false" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1094,16 +1019,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithCNN_RNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="29" />
-          <folding>
-            <element signature="e#27#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/file/Day01.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -1112,10 +1027,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/file/Day01_format.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/FormatData_CP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithCNN_RNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="112" column="20" lean-forward="true" selection-start-line="112" selection-start-column="20" selection-end-line="112" selection-end-column="20" />
+          <folding>
+            <element signature="e#27#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/Con_AE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/MyCNN_RNN_Model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="54" column="42" lean-forward="false" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+          <folding>
+            <element signature="e#27#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/stl_perceptron_kfold3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="87" column="20" lean-forward="false" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithRBF.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        <state relative-caret-position="737">
+          <caret line="39" column="34" lean-forward="false" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
           <folding>
             <element signature="e#34#52#0" expanded="true" />
           </folding>
@@ -1124,19 +1091,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithSVM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        <state relative-caret-position="251">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/FormatData_CP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
