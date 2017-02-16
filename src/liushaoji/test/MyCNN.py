@@ -17,6 +17,17 @@ nb_epoch = 10
 
 dataframe = pandas.read_csv("/Users/liushaoji/ManageSAEData/day01.csv", header=0)
 data = dataframe.values
+line0_Max = max(data[0:, 0])
+line1_Max = max(data[0:, 1])
+line2_Max = max(data[0:, 2])
+line3_Max = max(data[0:, 3])
+line4_Max = max(data[0:, 4])
+data[0:, 0] = data[0:, 0]/line0_Max
+data[0:, 1] = data[0:, 1]/line1_Max
+data[0:, 2] = data[0:, 2]/line2_Max
+data[0:, 3] = data[0:, 3]/line3_Max
+data[0:, 4] = data[0:, 4]/line4_Max
+data[0:, 5] = data[0:, 5]*10
 
 # iris_data = pandas.read_csv("/Users/liushaoji/ManageSAEData/iris.txt", header=None )
 # data = iris_data.values
@@ -60,4 +71,4 @@ model.compile(loss='binary_crossentropy',
               optimizer='adam',
               metrics=['accuracy'])
 
-model.fit(X_train, y_train,  batch_size=batch_size,  nb_epoch=nb_epoch, validation_split=0.2)
+model.fit(X_train, y_train,  batch_size=batch_size,  nb_epoch=nb_epoch)
