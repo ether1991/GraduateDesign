@@ -2,7 +2,7 @@ from sklearn import svm
 import pandas
 from sklearn.cross_validation import cross_val_score
 import numpy as np
-inputFile = pandas.read_csv('/Users/liushaoji/PycharmProjects/GraduateDesign/file/dayFormat.csv');
+inputFile = pandas.read_csv('/Users/liushaoji/PycharmProjects/GraduateDesign/file/Day01_format.csv');
 inputFile.dropna(inplace=True)  # drop the NaN records
 inputData = inputFile.values
 # data feature

@@ -1,6 +1,7 @@
 import pandas
 
 input = pandas.read_csv('/Users/liushaoji/PycharmProjects/GraduateDesign/file/day.csv')
+input.dropna(inplace=True)
 dataSet = input.values
 
 # X = dataSet[:, 0:7]
@@ -16,7 +17,7 @@ def t2s(t):
 for i in range(0,len(x)):
 #   print(t2s(x[i]))
     dataSet[i, 0] = t2s(x[i])
-    dataSet[i, 7] = dataSet[i, 7]*10
+    dataSet[i, 7] = int(dataSet[i, 7]*10)
 dataSet = map(abs, dataSet)
 # print dataSet
 

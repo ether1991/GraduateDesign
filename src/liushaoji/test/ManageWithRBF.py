@@ -10,7 +10,7 @@ from sklearn import datasets
 # iris = datasets.load_iris()
 # X = iris.data[:, 0:2]  # we only take the first two features for visualization
 # y = iris.target
-inputFile = pandas.read_csv('/Users/liushaoji/PycharmProjects/GraduateDesign/file/day001.csv');
+inputFile = pandas.read_csv('/Users/liushaoji/PycharmProjects/GraduateDesign/file/day001.csv')
 inputFile.dropna(inplace=True)  # drop the NaN records
 inputData = inputFile.values
 # data feature
