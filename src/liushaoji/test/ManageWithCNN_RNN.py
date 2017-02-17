@@ -18,7 +18,7 @@ from keras.utils import np_utils
 from keras.layers import LSTM
 from sklearn.cross_validation import KFold
 # from sklearn import cross_validation
-from sklearn.cross_validation import cross_val_score
+from sklearn.model_selection import cross_val_score
 from keras.wrappers.scikit_learn import KerasClassifier
 from sklearn.preprocessing import LabelEncoder
 from keras.layers import Dropout
@@ -28,11 +28,11 @@ from keras.constraints import maxnorm
 seed = 7
 numpy.random.seed(seed)
 # load dataset
-dataframe = pandas.read_csv('/Users/liushaoji/PycharmProjects/GraduateDesign/file/dayFormat.csv')
+dataframe = pandas.read_csv('/Users/liushaoji/PycharmProjects/GraduateDesign/file/Day01_format_simply.csv')
 dataframe.dropna(inplace=True)
 dataset = dataframe.values
-X = dataset[0:100, 1:8].astype(float)
-Y = dataset[0:100, 8]
+X = dataset[0:1024, 1:8].astype(float)
+Y = dataset[0:1024, 8]
 # encode class values as integers
 encoder = LabelEncoder()
 encoder.fit(Y)
@@ -85,7 +85,7 @@ def baseline_model():
     #  model.add(Embedding(8, 32, input_length=8))
     # model.add(LSTM(100))
 
-    model.add(Dense(2, init='normal', activation='softmax'))
+    model.add(Dense(4, init='normal', activation='softmax'))
     # Compile model
     model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
@@ -110,7 +110,7 @@ def baseline_model():
     return model
 
 
-estimator = KerasClassifier(build_fn=baseline_model, nb_epoch=200, batch_size=5, verbose=2)
+estimator = KerasClassifier(build_fn=baseline_model, nb_epoch=20, batch_size=5, verbose=2)
 print len(dummy_y)
 kfold = KFold(n=len(X), n_folds=10, shuffle=True, random_state=seed)
 results = cross_val_score(estimator, X, dummy_y, cv=kfold)

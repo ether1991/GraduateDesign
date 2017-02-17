@@ -1,74 +1,42 @@
-# import matplotlib.pyplot as plt
-import numpy as np
-import pandas
-from sklearn.linear_model import LogisticRegression
+# Modified for documentation by Jaques Grobler
+# License: BSD 3 clause
+
+from sklearn.model_selection import train_test_split
+from sklearn.neural_network import MLPClassifier
+from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from sklearn.gaussian_process import GaussianProcessClassifier
 from sklearn.gaussian_process.kernels import RBF
-from sklearn import datasets
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
+from sklearn.naive_bayes import GaussianNB
+from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
+import pandas
 
-# iris = datasets.load_iris()
-# X = iris.data[:, 0:2]  # we only take the first two features for visualization
-# y = iris.target
-inputFile = pandas.read_csv('/Users/liushaoji/PycharmProjects/GraduateDesign/file/day001.csv')
+names = ["Nearest Neighbors", "RBF SVM", "Gaussian Process",
+         "Decision Tree", "Random Forest", "Neural Net", "AdaBoost"]
+
+classifiers = [
+    KNeighborsClassifier(3),
+    SVC(gamma=2, C=1),
+    GaussianProcessClassifier(1.0 * RBF(1.0), warm_start=True),
+    DecisionTreeClassifier(max_depth=5),
+    RandomForestClassifier(max_depth=5, n_estimators=10, max_features=1),
+    MLPClassifier(alpha=1),
+    AdaBoostClassifier()]
+
+inputFile = pandas.read_csv('/Users/liushaoji/PycharmProjects/GraduateDesign/file/Day01_format_simply.csv');
 inputFile.dropna(inplace=True)  # drop the NaN records
 inputData = inputFile.values
 # data feature
-X = inputData[:, 1:3]
+data = inputData[0:2000, 1:8]
 # label
-y = inputData[:, 8]
+label = inputData[0:2000, 8]
 
-n_features = X.shape[1]
+X_train, X_test, Y_train, Y_test = train_test_split(data, label, test_size=0.2, random_state=0)
 
-C = 1.0
-kernel = 1.0 * RBF([1.0, 1.0])  # for GPC
-
-# Create different classifiers. The logistic regression cannot do
-# multiclass out of the box.
-classifiers = {'L1 logistic': LogisticRegression(C=C, penalty='l1'),
-               'L2 logistic (OvR)': LogisticRegression(C=C, penalty='l2'),
-               'Linear SVC': SVC(kernel='linear', C=C, probability=True,
-                                 random_state=0),
-               'L2 logistic (Multinomial)': LogisticRegression(
-                C=C, solver='lbfgs', multi_class='multinomial'),
-               'GPC': GaussianProcessClassifier(kernel)
-               }
-
-n_classifiers = len(classifiers)
-
-# plt.figure(figsize=(3 * 2, n_classifiers * 2))
-# plt.subplots_adjust(bottom=.2, top=.95)
-
-xx = np.linspace(3, 9, 100)
-yy = np.linspace(1, 5, 100).T
-xx, yy = np.meshgrid(xx, yy)
-Xfull = np.c_[xx.ravel(), yy.ravel()]
-
-for index, (name, classifier) in enumerate(classifiers.items()):
-    classifier.fit(X, y)
-
-    y_pred = classifier.predict(X)
-    classif_rate = np.mean(y_pred.ravel() == y.ravel()) * 100
-    print("classif_rate for %s : %f " % (name, classif_rate))
-
-    # View probabilities=
-    probas = classifier.predict_proba(Xfull)
-    n_classes = np.unique(y_pred).size
-    # for k in range(n_classes):
-    #     # plt.subplot(n_classifiers, n_classes, index * n_classes + k + 1)
-    #     # plt.title("Class %d" % k)
-    #     if k == 0:
-    #         plt.ylabel(name)
-    #     imshow_handle = plt.imshow(probas[:, k].reshape((100, 100)),
-    #                                extent=(3, 9, 1, 5), origin='lower')
-    #     plt.xticks(())
-    #     plt.yticks(())
-    #     idx = (y_pred == k)
-    #     if idx.any():
-    #         plt.scatter(X[idx, 0], X[idx, 1], marker='o', c='k')
-
-# ax = plt.axes([0.15, 0.04, 0.7, 0.05])
-# plt.title("Probability")
-# plt.colorbar(imshow_handle, cax=ax, orientation='horizontal')
-
-# plt.show()
+# iterate over classifiers
+for name, clf in zip(names, classifiers):
+    clf.fit(X_train, Y_train)
+    score = clf.score(X_test, Y_test)
+    print "%s = %f" % (name, score)
