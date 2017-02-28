@@ -1,6 +1,7 @@
 import pandas
 import os
-
+import h5py
+import numpy as np
 
 def transformData(inputFilePath):
     input = pandas.read_csv(inputFilePath)
@@ -32,6 +33,7 @@ def transformData(inputFilePath):
     outputPath = str_pre + '_format.csv'
     df = pandas.DataFrame(dataSet)
     df.to_csv(outputPath,header=False, index=False)
+
 
 filePath = '/Users/liushaoji/PycharmProjects/GraduateDesign/file/'
 

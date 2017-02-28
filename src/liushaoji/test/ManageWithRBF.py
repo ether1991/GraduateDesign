@@ -1,6 +1,6 @@
 # Modified for documentation by Jaques Grobler
 # License: BSD 3 clause
-
+from sklearn import preprocessing
 from sklearn.model_selection import train_test_split
 from sklearn.neural_network import MLPClassifier
 from sklearn.neighbors import KNeighborsClassifier
@@ -25,13 +25,14 @@ classifiers = [
     MLPClassifier(alpha=1),
     AdaBoostClassifier()]
 
-inputFile = pandas.read_csv('/Users/liushaoji/PycharmProjects/GraduateDesign/file/Day01_format_simply.csv');
+inputFile = pandas.read_csv('/Users/liushaoji/PycharmProjects/GraduateDesign/file/Day01_format.csv');
 inputFile.dropna(inplace=True)  # drop the NaN records
 inputData = inputFile.values
 # data feature
-data = inputData[0:2000, 1:8]
+data = inputData[0:1000, 1:8]
+data = preprocessing.scale(data) #  normalization
 # label
-label = inputData[0:2000, 8]
+label = inputData[0:1000, 8]
 
 X_train, X_test, Y_train, Y_test = train_test_split(data, label, test_size=0.2, random_state=0)
 
