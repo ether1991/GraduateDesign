@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49664dd7-9131-45a7-8f4e-5662023e6604" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/test/ManageWithAE.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/test/ManageWithCNN_RNN_cross_validation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/test/ManageWithDT.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/test/ManageWithLSTM.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/test/ManageWithMultiSoftmax.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/test/ManageWithNB.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/test/ManageWithStackLSTM.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/test/PlotLearnCurve.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/test/multiLabel.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/tianchi/DataManager.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file/Day01_format_simply.csv" afterPath="$PROJECT_DIR$/file/Day01_format_simply.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/liushaoji/test/FormatData_CP.py" afterPath="$PROJECT_DIR$/src/liushaoji/test/FormatData_CP.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/liushaoji/test/ManageWithCNN_RNN.py" afterPath="$PROJECT_DIR$/src/liushaoji/test/ManageWithCNN_RNN.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/liushaoji/test/ManageWithRBF.py" afterPath="$PROJECT_DIR$/src/liushaoji/test/ManageWithRBF.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/liushaoji/test/ManageWithSVM.py" afterPath="$PROJECT_DIR$/src/liushaoji/test/ManageWithSVM.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/liushaoji/test/test.py" afterPath="$PROJECT_DIR$/src/liushaoji/test/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/liushaoji/test/ManageWithNB.py" afterPath="$PROJECT_DIR$/src/liushaoji/test/ManageWithNB.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,6 +33,7 @@
     <SUITE FILE_PATH="coverage/GraduateDesign$autoencoder.coverage" NAME="autoencoder Coverage Results" MODIFIED="1482245600945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$Con_AE.coverage" NAME="Con_AE Coverage Results" MODIFIED="1482309072232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$variational_autoencoder.coverage" NAME="variational_autoencoder Coverage Results" MODIFIED="1487300235208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
+    <SUITE FILE_PATH="coverage/GraduateDesign$DataManager.coverage" NAME="DataManager Coverage Results" MODIFIED="1488272737829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/tianchi" />
     <SUITE FILE_PATH="coverage/GraduateDesign$ManageWithMultiSoftmax.coverage" NAME="ManageWithMultiSoftmax Coverage Results" MODIFIED="1487320789316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$MyDeepAutoEncoderAdvance.coverage" NAME="MyDeepAutoEncoderAdvance Coverage Results" MODIFIED="1482734892337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$ManageWithCNN_RNN_cross_validation.coverage" NAME="ManageWithCNN_RNN_cross_validation Coverage Results" MODIFIED="1487515483886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
@@ -70,94 +58,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ManageWithSVM.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithSVM.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlotLearnCurve.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/liushaoji/test/PlotLearnCurve.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="5" column="54" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ManageWithStackLSTM.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithStackLSTM.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="32" column="43" lean-forward="false" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ManageWithNB.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithNB.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ManageWithAE.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithAE.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ManageWithDT.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithDT.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ManageWithCNN_RNN_cross_validation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithCNN_RNN_cross_validation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="59" column="47" lean-forward="false" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ManageWithLSTM.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithLSTM.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -235,7 +136,9 @@
         <option value="$PROJECT_DIR$/src/liushaoji/test/ManageWithAE.py" />
         <option value="$PROJECT_DIR$/file/Day01_format_simply.csv" />
         <option value="$PROJECT_DIR$/src/liushaoji/test/ManageWithDT.py" />
+        <option value="$PROJECT_DIR$/src/liushaoji/test/GetWeatherByDate.py" />
         <option value="$PROJECT_DIR$/src/liushaoji/test/ManageWithNB.py" />
+        <option value="$PROJECT_DIR$/src/liushaoji/tianchi/DataManager.py" />
       </list>
     </option>
   </component>
@@ -332,20 +235,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GraduateDesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GraduateDesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="file" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -369,25 +258,7 @@
       <recent name="$PROJECT_DIR$/file" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ManageWithNB">
-    <configuration default="false" name="ManageWithAE" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/liushaoji/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="GraduateDesign" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/liushaoji/test/ManageWithAE.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.DataManager">
     <configuration default="false" name="ManageWithDT" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -456,6 +327,24 @@
       <module name="GraduateDesign" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/liushaoji/test/ManageWithSVM.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DataManager" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/liushaoji/tianchi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GraduateDesign" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/liushaoji/tianchi/DataManager.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -675,19 +564,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.ManageWithAE" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ManageWithDT" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ManageWithNB" />
-      <item index="3" class="java.lang.String" itemvalue="Python.TraffPreByDeepAE" />
-      <item index="4" class="java.lang.String" itemvalue="Python.ManageWithSVM" />
+      <item index="0" class="java.lang.String" itemvalue="Python.ManageWithDT" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ManageWithNB" />
+      <item index="2" class="java.lang.String" itemvalue="Python.TraffPreByDeepAE" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ManageWithSVM" />
+      <item index="4" class="java.lang.String" itemvalue="Python.DataManager" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ManageWithNB" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ManageWithDT" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ManageWithSVM" />
-        <item index="3" class="java.lang.String" itemvalue="Python.TraffPreByDeepAE" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ManageWithAE" />
+        <item index="0" class="java.lang.String" itemvalue="Python.DataManager" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ManageWithNB" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ManageWithDT" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ManageWithSVM" />
+        <item index="4" class="java.lang.String" itemvalue="Python.TraffPreByDeepAE" />
       </list>
     </recent_temporary>
   </component>
@@ -779,34 +668,41 @@
       <option name="project" value="LOCAL" />
       <updated>1487318889904</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2017.02.17">
+      <created>1488250611477</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1488250611477</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21816881" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22103004" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22191781" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28767124" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3479452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30547947" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3109589" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24657534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46438357" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24657534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -868,14 +764,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/file/TargetData.csv" />
-    <entry file="file://$PROJECT_DIR$/file/iris.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2299">
-          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/file/day.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1111,28 +999,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithStackLSTM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="32" column="43" lean-forward="false" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithRBF.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithAE.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1147,9 +1017,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#13#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1157,7 +1024,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
           <caret line="9644" column="51" lean-forward="false" selection-start-line="9644" selection-start-column="51" selection-end-line="9644" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1165,23 +1031,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1032">
           <caret line="679" column="18" lean-forward="false" selection-start-line="679" selection-start-column="17" selection-end-line="679" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithCNN_RNN_cross_validation.py">
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/GetWeatherByDate.py" />
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithNB.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="59" column="47" lean-forward="false" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="47" />
-          <folding />
+        <state relative-caret-position="304">
+          <caret line="23" column="15" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithLSTM.py">
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithStackLSTM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="38">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1189,17 +1053,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="5" column="54" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithDT.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1207,17 +1060,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithNB.py">
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithLSTM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="380">
+          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithCNN_RNN_cross_validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="59" column="47" lean-forward="false" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithDT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithAE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/tianchi/DataManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

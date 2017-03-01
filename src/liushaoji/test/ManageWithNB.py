@@ -21,7 +21,7 @@ label = inputData[:, 8]
 X_train, X_test, Y_train, Y_test = train_test_split(data, label, test_size=0.1, random_state=0)
 
 names = ['GaussianNB', 'MultinomialNB', 'BernoulliNB']
-classifiers = [ MultinomialNB()]
+classifiers = [MultinomialNB()]
 
 # iterate over classifiers
 for name, clf in zip(names, classifiers):
