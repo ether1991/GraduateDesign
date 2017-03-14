@@ -2,9 +2,95 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49664dd7-9131-45a7-8f4e-5662023e6604" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/tianchi/DataManager.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/file/NYC14_M16x8_T60_NewEnd.h5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/file/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/file/md5sum.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/PeMSData/ManageWithAE.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/PeMSData/ManageWithConv_AE.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/PeMSData/MyCNN_RNN_Model.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/PeMSData/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/ZhuJiaData/FormatData.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/ZhuJiaData/FormatData_CP.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/ZhuJiaData/ManageData.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/ZhuJiaData/ManageWithCNN_RNN.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/ZhuJiaData/ManageWithCNN_RNN_cross_validation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/ZhuJiaData/ManageWithConv_AE.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/ZhuJiaData/ManageWithDT.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/ZhuJiaData/ManageWithLSTM.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/ZhuJiaData/ManageWithMultiSoftmax.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/ZhuJiaData/ManageWithNB.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/ZhuJiaData/ManageWithRBF.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/ZhuJiaData/ManageWithSVM.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/ZhuJiaData/ManageWithStackLSTM.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/ZhuJiaData/PlotLearnCurve.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/ZhuJiaData/loadFile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/ZhuJiaData/multiLabel.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/ZhuJiaData/stl_perceptron_kfold3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/data/graphx/followers.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/data/graphx/users.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/data/mllib/als/sample_movielens_ratings.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/data/mllib/als/test.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/data/mllib/gmm_data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/data/mllib/kmeans_data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/data/mllib/pagerank_data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/data/mllib/pic_data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/data/mllib/ridge-data/lpsa.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/data/mllib/sample_binary_classification_data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/data/mllib/sample_fpgrowth.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/data/mllib/sample_isotonic_regression_libsvm_data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/data/mllib/sample_kmeans_data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/data/mllib/sample_lda_data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/data/mllib/sample_lda_libsvm_data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/data/mllib/sample_libsvm_data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/data/mllib/sample_linear_regression_data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/data/mllib/sample_movielens_data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/data/mllib/sample_multiclass_classification_data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/data/mllib/sample_svm_data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/data/mllib/streaming_kmeans_data_test.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/data/streaming/AFINN-111.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/kmeans.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/kmeans_example.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/mnist_mlp_spark.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/spark/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/liushaoji/zhengyu/LoadData.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/liushaoji/test/AE_STL.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/liushaoji/test/Con_AE.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/liushaoji/test/Conv_AE.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/liushaoji/test/MyCNN.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/liushaoji/test/MyCNN_LSTM.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/liushaoji/test/MyDeepAutoEncoder.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/liushaoji/test/MyDeepAutoEncoderAdvance.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/liushaoji/test/TraffPreByDeepAE.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/liushaoji/test/autoencoder.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/liushaoji/test/variational_autoencoder.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/__init__.py" afterPath="$PROJECT_DIR$/file/words.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/liushaoji/CsvManager/LoadFile.py" afterPath="$PROJECT_DIR$/file/words.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/liushaoji/CsvManager/__init__.py" afterPath="$PROJECT_DIR$/src/liushaoji/spark/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/liushaoji/__init__.py" afterPath="$PROJECT_DIR$/src/liushaoji/ZhuJiaData/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/liushaoji/test/FormatData.py" afterPath="$PROJECT_DIR$/src/liushaoji/PeMSData/FormatData.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/liushaoji/test/FormatData_CP.py" afterPath="$PROJECT_DIR$/src/liushaoji/PeMSData/FormatData_CP.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/liushaoji/test/ManageData.py" afterPath="$PROJECT_DIR$/src/liushaoji/PeMSData/ManageData.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/liushaoji/test/ManageWithAE.py" afterPath="$PROJECT_DIR$/src/liushaoji/ZhuJiaData/ManageWithAE.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/liushaoji/test/ManageWithCNN_RNN.py" afterPath="$PROJECT_DIR$/src/liushaoji/PeMSData/ManageWithCNN_RNN.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/liushaoji/test/ManageWithCNN_RNN_cross_validation.py" afterPath="$PROJECT_DIR$/src/liushaoji/PeMSData/ManageWithCNN_RNN_cross_validation.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/liushaoji/test/ManageWithDT.py" afterPath="$PROJECT_DIR$/src/liushaoji/PeMSData/ManageWithDT.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/liushaoji/test/ManageWithLSTM.py" afterPath="$PROJECT_DIR$/src/liushaoji/PeMSData/ManageWithLSTM.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/liushaoji/test/ManageWithMultiSoftmax.py" afterPath="$PROJECT_DIR$/src/liushaoji/PeMSData/ManageWithMultiSoftmax.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/liushaoji/test/ManageWithNB.py" afterPath="$PROJECT_DIR$/src/liushaoji/PeMSData/ManageWithNB.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/liushaoji/test/ManageWithRBF.py" afterPath="$PROJECT_DIR$/src/liushaoji/PeMSData/ManageWithRBF.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/liushaoji/test/ManageWithSVM.py" afterPath="$PROJECT_DIR$/src/liushaoji/PeMSData/ManageWithSVM.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/liushaoji/test/ManageWithStackLSTM.py" afterPath="$PROJECT_DIR$/src/liushaoji/PeMSData/ManageWithStackLSTM.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/liushaoji/test/MyCNN_RNN_Model.py" afterPath="$PROJECT_DIR$/src/liushaoji/ZhuJiaData/MyCNN_RNN_Model.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/liushaoji/test/PlotLearnCurve.py" afterPath="$PROJECT_DIR$/src/liushaoji/PeMSData/PlotLearnCurve.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/liushaoji/test/TraffPreByDeepAE.py" afterPath="$PROJECT_DIR$/src/liushaoji/ZhuJiaData/TraffPreByDeepAE.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/liushaoji/test/__init__.py" afterPath="$PROJECT_DIR$/src/liushaoji/spark/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/liushaoji/test/loadFile.py" afterPath="$PROJECT_DIR$/src/liushaoji/PeMSData/loadFile.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/liushaoji/test/multiLabel.py" afterPath="$PROJECT_DIR$/src/liushaoji/PeMSData/multiLabel.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/liushaoji/test/stl_perceptron_kfold3.py" afterPath="$PROJECT_DIR$/src/liushaoji/PeMSData/stl_perceptron_kfold3.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/liushaoji/test/test.py" afterPath="$PROJECT_DIR$/src/liushaoji/spark/test.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/liushaoji/test/variational_autoencoder.py" afterPath="$PROJECT_DIR$/src/liushaoji/ZhuJiaData/variational_autoencoder.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/liushaoji/test/ManageWithNB.py" afterPath="$PROJECT_DIR$/src/liushaoji/test/ManageWithNB.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,14 +105,15 @@
     <SUITE FILE_PATH="coverage/GraduateDesign$ManageWithNB.coverage" NAME="ManageWithNB Coverage Results" MODIFIED="1488249839126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$MyCNN.coverage" NAME="MyCNN Coverage Results" MODIFIED="1482721687561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$ManageWithStackLSTM.coverage" NAME="ManageWithStackLSTM Coverage Results" MODIFIED="1487388607550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
-    <SUITE FILE_PATH="coverage/GraduateDesign$test.coverage" NAME="test Coverage Results" MODIFIED="1487578225574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
+    <SUITE FILE_PATH="coverage/GraduateDesign$test.coverage" NAME="test Coverage Results" MODIFIED="1488550633071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/spark" />
     <SUITE FILE_PATH="coverage/GraduateDesign$MyDeepAutoEncoder.coverage" NAME="MyDeepAutoEncoder Coverage Results" MODIFIED="1482734914453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
+    <SUITE FILE_PATH="coverage/GraduateDesign$kmeans_example.coverage" NAME="kmeans_example Coverage Results" MODIFIED="1488612714848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/spark" />
     <SUITE FILE_PATH="coverage/GraduateDesign$RBF.coverage" NAME="RBF Coverage Results" MODIFIED="1487399695370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$PrepareData.coverage" NAME="PrepareData Coverage Results" MODIFIED="1486297476655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$ManageWithCNN_RNN.coverage" NAME="ManageWithCNN_RNN Coverage Results" MODIFIED="1487386368644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
-    <SUITE FILE_PATH="coverage/GraduateDesign$FormatData_CP.coverage" NAME="FormatData_CP Coverage Results" MODIFIED="1487577972310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
+    <SUITE FILE_PATH="coverage/GraduateDesign$FormatData_CP.coverage" NAME="FormatData_CP Coverage Results" MODIFIED="1488335513443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$FormatData.coverage" NAME="FormatData Coverage Results" MODIFIED="1487214217808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
-    <SUITE FILE_PATH="coverage/GraduateDesign$ManageWithAE.coverage" NAME="ManageWithAE Coverage Results" MODIFIED="1487733170215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
+    <SUITE FILE_PATH="coverage/GraduateDesign$ManageWithAE.coverage" NAME="ManageWithAE Coverage Results" MODIFIED="1489393275681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$multiLabel.coverage" NAME="multiLabel Coverage Results" MODIFIED="1487382783066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$ManageWithCNN_RNN__1_.coverage" NAME="ManageWithCNN_RNN (1) Coverage Results" MODIFIED="1487401180380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$CutData.coverage" NAME="CutData Coverage Results" MODIFIED="1487143261445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
@@ -34,23 +121,27 @@
     <SUITE FILE_PATH="coverage/GraduateDesign$Con_AE.coverage" NAME="Con_AE Coverage Results" MODIFIED="1482309072232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$variational_autoencoder.coverage" NAME="variational_autoencoder Coverage Results" MODIFIED="1487300235208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$DataManager.coverage" NAME="DataManager Coverage Results" MODIFIED="1488272737829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/tianchi" />
+    <SUITE FILE_PATH="coverage/GraduateDesign$LoadData.coverage" NAME="LoadData Coverage Results" MODIFIED="1488503532565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/zhengyu" />
     <SUITE FILE_PATH="coverage/GraduateDesign$ManageWithMultiSoftmax.coverage" NAME="ManageWithMultiSoftmax Coverage Results" MODIFIED="1487320789316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$MyDeepAutoEncoderAdvance.coverage" NAME="MyDeepAutoEncoderAdvance Coverage Results" MODIFIED="1482734892337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
-    <SUITE FILE_PATH="coverage/GraduateDesign$ManageWithCNN_RNN_cross_validation.coverage" NAME="ManageWithCNN_RNN_cross_validation Coverage Results" MODIFIED="1487515483886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
-    <SUITE FILE_PATH="coverage/GraduateDesign$stl_perceptron_kfold3.coverage" NAME="stl_perceptron_kfold3 Coverage Results" MODIFIED="1486258393791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
+    <SUITE FILE_PATH="coverage/GraduateDesign$ManageWithCNN_RNN_cross_validation.coverage" NAME="ManageWithCNN_RNN_cross_validation Coverage Results" MODIFIED="1488594405149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$Conv_AE.coverage" NAME="Conv_AE Coverage Results" MODIFIED="1486302324517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
+    <SUITE FILE_PATH="coverage/GraduateDesign$stl_perceptron_kfold3.coverage" NAME="stl_perceptron_kfold3 Coverage Results" MODIFIED="1488940799269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$MyCon_AE.coverage" NAME="MyCon_AE Coverage Results" MODIFIED="1482396168086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$ManageWithRBF.coverage" NAME="ManageWithRBF Coverage Results" MODIFIED="1487493896233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
+    <SUITE FILE_PATH="coverage/GraduateDesign$kmeans.coverage" NAME="kmeans Coverage Results" MODIFIED="1488591485006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/spark" />
     <SUITE FILE_PATH="coverage/GraduateDesign$ManageData.coverage" NAME="ManageData Coverage Results" MODIFIED="1482740585625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$ManageWithDT.coverage" NAME="ManageWithDT Coverage Results" MODIFIED="1488248937142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$imdb_cnn.coverage" NAME="imdb_cnn Coverage Results" MODIFIED="1482391018296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/kerasDemo" />
     <SUITE FILE_PATH="coverage/GraduateDesign$MyCNN_RNN_Model.coverage" NAME="MyCNN_RNN_Model Coverage Results" MODIFIED="1486302241341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
+    <SUITE FILE_PATH="coverage/GraduateDesign$mnist_mlp_spark.coverage" NAME="mnist_mlp_spark Coverage Results" MODIFIED="1488592689026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/spark" />
     <SUITE FILE_PATH="coverage/GraduateDesign$MyCNN_LSTM.coverage" NAME="MyCNN_LSTM Coverage Results" MODIFIED="1482743721402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$AE_STL.coverage" NAME="AE_STL Coverage Results" MODIFIED="1486302374709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
-    <SUITE FILE_PATH="coverage/GraduateDesign$ManageWithSVM.coverage" NAME="ManageWithSVM Coverage Results" MODIFIED="1488248690447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
+    <SUITE FILE_PATH="coverage/GraduateDesign$ManageWithSVM.coverage" NAME="ManageWithSVM Coverage Results" MODIFIED="1488591996853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$loadFile.coverage" NAME="loadFile Coverage Results" MODIFIED="1482734855798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$ClassfierRBF.coverage" NAME="ClassfierRBF Coverage Results" MODIFIED="1487317491348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$ManageWithLSTM.coverage" NAME="ManageWithLSTM Coverage Results" MODIFIED="1487732763777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
+    <SUITE FILE_PATH="coverage/GraduateDesign$ManageWithConv_AE.coverage" NAME="ManageWithConv_AE Coverage Results" MODIFIED="1488940111324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
     <SUITE FILE_PATH="coverage/GraduateDesign$testSVM.coverage" NAME="testSVM Coverage Results" MODIFIED="1486295757662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/liushaoji/test" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -58,7 +149,30 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ManageWithAE.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/liushaoji/PeMSData/ManageWithAE.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/liushaoji/ZhuJiaData/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,6 +199,10 @@
       <find>10/10</find>
       <find>print</find>
       <find>to_categorical</find>
+      <find>SparkModel</find>
+      <find>model</find>
+      <find>maxnorm</find>
+      <find>loss</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -96,7 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/liushaoji/test/autoencoder.py" />
         <option value="$PROJECT_DIR$/src/liushaoji/test/Con_AE.py" />
         <option value="$PROJECT_DIR$/src/liushaoji/test/MyCon_AE.py" />
         <option value="$PROJECT_DIR$/src/liushaoji/test/iris.txt" />
@@ -112,7 +229,6 @@
         <option value="$PROJECT_DIR$/src/liushaoji/test/testSVM.py" />
         <option value="$PROJECT_DIR$/src/liushaoji/test/PrepareData.py" />
         <option value="$PROJECT_DIR$/src/liushaoji/test/TraffPreByDeepAE.py" />
-        <option value="$PROJECT_DIR$/src/liushaoji/test/MyCNN_RNN_Model.py" />
         <option value="$PROJECT_DIR$/src/liushaoji/test/Conv_AE.py" />
         <option value="$PROJECT_DIR$/src/liushaoji/test/AE_STL.py" />
         <option value="$PROJECT_DIR$/src/liushaoji/test/CutData.py" />
@@ -130,15 +246,25 @@
         <option value="$PROJECT_DIR$/src/liushaoji/test/PlotLearnCurve.py" />
         <option value="$PROJECT_DIR$/src/liushaoji/test/ManageWithSVM.py" />
         <option value="$PROJECT_DIR$/src/liushaoji/test/ManageWithCNN_RNN_cross_validation.py" />
-        <option value="$PROJECT_DIR$/src/liushaoji/test/FormatData_CP.py" />
         <option value="$PROJECT_DIR$/src/liushaoji/test/test.py" />
         <option value="$PROJECT_DIR$/src/liushaoji/test/ManageWithLSTM.py" />
-        <option value="$PROJECT_DIR$/src/liushaoji/test/ManageWithAE.py" />
         <option value="$PROJECT_DIR$/file/Day01_format_simply.csv" />
         <option value="$PROJECT_DIR$/src/liushaoji/test/ManageWithDT.py" />
         <option value="$PROJECT_DIR$/src/liushaoji/test/GetWeatherByDate.py" />
         <option value="$PROJECT_DIR$/src/liushaoji/test/ManageWithNB.py" />
         <option value="$PROJECT_DIR$/src/liushaoji/tianchi/DataManager.py" />
+        <option value="$PROJECT_DIR$/src/liushaoji/test/FormatData_CP.py" />
+        <option value="$PROJECT_DIR$/src/liushaoji/zhengyu/LoadData.py" />
+        <option value="$PROJECT_DIR$/src/liushaoji/test/MyCNN_RNN_Model.py" />
+        <option value="$PROJECT_DIR$/src/liushaoji/spark.py" />
+        <option value="$PROJECT_DIR$/file/words.txt" />
+        <option value="$PROJECT_DIR$/src/liushaoji/spark/test.py" />
+        <option value="$PROJECT_DIR$/src/liushaoji/spark/mnist_mlp_spark.py" />
+        <option value="$PROJECT_DIR$/src/liushaoji/spark/kmeans.py" />
+        <option value="/usr/local/lib/python2.7/site-packages/keras/__init__.py" />
+        <option value="$PROJECT_DIR$/src/liushaoji/test/ManageWithConv_AE.py" />
+        <option value="$PROJECT_DIR$/src/liushaoji/test/ManageWithAE.py" />
+        <option value="$PROJECT_DIR$/src/liushaoji/test/autoencoder.py" />
       </list>
     </option>
   </component>
@@ -169,6 +295,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -194,55 +321,18 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GraduateDesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GraduateDesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="liushaoji" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GraduateDesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GraduateDesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liushaoji" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="GrepConsole" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
@@ -251,15 +341,37 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/liushaoji/ZhuJiaData" />
       <recent name="$PROJECT_DIR$/src/liushaoji/test" />
+      <recent name="$PROJECT_DIR$/src/liushaoji/spark" />
+      <recent name="$PROJECT_DIR$/src/liushaoji/zhengyu" />
       <recent name="$PROJECT_DIR$/file" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/liushaoji/spark" />
       <recent name="$PROJECT_DIR$/file" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.DataManager">
-    <configuration default="false" name="ManageWithDT" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ManageWithAE">
+    <configuration default="false" name="kmeans_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/liushaoji/spark" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GraduateDesign" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/liushaoji/spark/kmeans_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ManageWithCNN_RNN_cross_validation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -272,12 +384,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="GraduateDesign" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/liushaoji/test/ManageWithDT.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/liushaoji/test/ManageWithCNN_RNN_cross_validation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="ManageWithNB" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="ManageWithAE" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -290,12 +402,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="GraduateDesign" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/liushaoji/test/ManageWithNB.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/liushaoji/test/ManageWithAE.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="TraffPreByDeepAE" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="ManageWithConv_AE" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -308,12 +420,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="GraduateDesign" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/liushaoji/test/TraffPreByDeepAE.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/liushaoji/test/ManageWithConv_AE.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="ManageWithSVM" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="stl_perceptron_kfold3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -326,25 +438,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="GraduateDesign" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/liushaoji/test/ManageWithSVM.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="DataManager" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/liushaoji/tianchi" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="GraduateDesign" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/liushaoji/tianchi/DataManager.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/liushaoji/test/stl_perceptron_kfold3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -564,19 +658,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.ManageWithDT" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ManageWithNB" />
-      <item index="2" class="java.lang.String" itemvalue="Python.TraffPreByDeepAE" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ManageWithSVM" />
-      <item index="4" class="java.lang.String" itemvalue="Python.DataManager" />
+      <item index="0" class="java.lang.String" itemvalue="Python.kmeans_example" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ManageWithCNN_RNN_cross_validation" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ManageWithAE" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ManageWithConv_AE" />
+      <item index="4" class="java.lang.String" itemvalue="Python.stl_perceptron_kfold3" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.DataManager" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ManageWithNB" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ManageWithDT" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ManageWithSVM" />
-        <item index="4" class="java.lang.String" itemvalue="Python.TraffPreByDeepAE" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ManageWithAE" />
+        <item index="1" class="java.lang.String" itemvalue="Python.stl_perceptron_kfold3" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ManageWithConv_AE" />
+        <item index="3" class="java.lang.String" itemvalue="Python.kmeans_example" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ManageWithCNN_RNN_cross_validation" />
       </list>
     </recent_temporary>
   </component>
@@ -675,34 +769,50 @@
       <option name="project" value="LOCAL" />
       <updated>1488250611477</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="2017.02.17">
+      <created>1488334226675</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1488334226675</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22103004" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22191781" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22889842" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28630137" sideWeight="0.50572246" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3479452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3109589" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5082192" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46438357" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3890411" sideWeight="0.49427754" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24657534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5109589" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -742,16 +852,20 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/liushaoji/test/multiLabel.py</url>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/liushaoji/PeMSData/multiLabel.py</url>
           <line>71</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/liushaoji/test/ManageWithAE.py</url>
-          <option name="timeStamp" value="48" />
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file:///usr/local/lib/python2.7/site-packages/keras/engine/training.py</url>
+          <line>1167</line>
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -759,264 +873,51 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="50" />
+      <option name="time" value="59" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/file/day.csv">
+    <entry file="file:///usr/local/lib/python2.7/site-packages/sklearn/model_selection/_validation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        <state relative-caret-position="1032">
+          <caret line="679" column="18" lean-forward="false" selection-start-line="679" selection-start-column="17" selection-end-line="679" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/file/dayFormat.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-760">
-          <caret line="3871" column="53" lean-forward="false" selection-start-line="3871" selection-start-column="53" selection-end-line="3871" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/FormatData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/day001.csv" />
-    <entry file="file://$PROJECT_DIR$/file/Day02_format.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/pandas/core/frame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="1262" column="53" lean-forward="false" selection-start-line="1262" selection-start-column="29" selection-end-line="1262" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/Day01.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="48752" column="51" lean-forward="false" selection-start-line="48752" selection-start-column="48" selection-end-line="48752" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/MyCNN_RNN_Model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="54" column="42" lean-forward="false" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/site-packages/sklearn/cross_validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="1549" column="36" lean-forward="true" selection-start-line="1549" selection-start-column="16" selection-end-line="1549" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/Day01_format.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="103151" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/kerasDemo/reuters_mlp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="28" column="46" lean-forward="false" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/kerasDemo/pretrained_word_embeddings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/variational_autoencoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/site-packages/sklearn/neural_network/multilayer_perceptron.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="876" column="8" lean-forward="false" selection-start-line="876" selection-start-column="8" selection-end-line="876" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/stl_perceptron_kfold3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/site-packages/sklearn/datasets/samples_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithRBF.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithMultiSoftmax.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-89">
-          <caret line="17" column="78" lean-forward="false" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/site-packages/sklearn/svm/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="556" column="8" lean-forward="false" selection-start-line="556" selection-start-column="8" selection-end-line="556" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/multiLabel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="75" column="40" lean-forward="true" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/site-packages/Keras-1.2.0-py2.7.egg/keras/layers/embeddings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="67" column="38" lean-forward="false" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/site-packages/Keras-1.2.0-py2.7.egg/keras/layers/recurrent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="656" column="27" lean-forward="true" selection-start-line="656" selection-start-column="27" selection-end-line="656" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/RBF.py" />
-    <entry file="file:///usr/local/lib/python2.7/site-packages/sklearn/svm/classes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="530" column="8" lean-forward="false" selection-start-line="530" selection-start-column="8" selection-end-line="530" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/Conv_AE.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/Con_AE.py">
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/GetWeatherByDate.py" />
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/PeMSData/ManageWithNB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="11" />
+          <caret line="23" column="15" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/MyDeepAutoEncoder.py">
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/PeMSData/ManageWithStackLSTM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="38">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/MyCNN.py">
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/PeMSData/ManageWithLSTM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-304">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="380">
+          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python2.7/site-packages/Keras-1.2.0-py2.7.egg/keras/layers/core.py">
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/PeMSData/ManageWithDT.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="716" column="27" lean-forward="false" selection-start-line="716" selection-start-column="17" selection-end-line="716" selection-end-column="27" />
+        <state relative-caret-position="379">
+          <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python2.7/site-packages/Keras-1.2.0-py2.7.egg/keras/models.py">
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/tianchi/DataManager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6821">
-          <caret line="555" column="20" lean-forward="false" selection-start-line="555" selection-start-column="20" selection-end-line="555" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/site-packages/sklearn/preprocessing/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="79" column="4" lean-forward="false" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/model.png" />
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/FormatData_CP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/site-packages/sklearn/tree/tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="670" column="8" lean-forward="false" selection-start-line="670" selection-start-column="8" selection-end-line="670" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithCNN_RNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="27" column="15" lean-forward="false" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithRBF.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/TraffPreByDeepAE.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1027,77 +928,314 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python2.7/site-packages/sklearn/model_selection/_validation.py">
+    <entry file="file://$PROJECT_DIR$/file/Day01.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1032">
-          <caret line="679" column="18" lean-forward="false" selection-start-line="679" selection-start-column="17" selection-end-line="679" selection-end-column="18" />
+        <state relative-caret-position="926231">
+          <caret line="48749" column="56" lean-forward="false" selection-start-line="48749" selection-start-column="56" selection-end-line="48749" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/GetWeatherByDate.py" />
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithNB.py">
+    <entry file="file://$PROJECT_DIR$/file/Day02_format.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="23" column="15" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        <state relative-caret-position="46816">
+          <caret line="2464" column="26" lean-forward="false" selection-start-line="2464" selection-start-column="26" selection-end-line="2464" selection-end-column="26" />
+        </state>
+      </provider>
+      <provider editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/pandas/io/parsers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9690">
+          <caret line="535" column="0" lean-forward="false" selection-start-line="535" selection-start-column="0" selection-end-line="535" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithStackLSTM.py">
+    <entry file="file:///Library/Python/2.7/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="2834" column="8" lean-forward="false" selection-start-line="2834" selection-start-column="8" selection-end-line="2834" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/PeMSData/FormatData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/CsvManager/LoadFile.py" />
+    <entry file="file://$PROJECT_DIR$/file/md5sum.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/PeMSData/loadFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/PeMSData/FormatData_CP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="39" column="31" lean-forward="false" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/spark.py" />
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/spark/data/mllib/als/test.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/words.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/spark/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/site-packages/Keras-1.2.0-py2.7.egg/keras/__init__.py" />
+    <entry file="file:///usr/local/lib/python2.7/site-packages/elephas/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/site-packages/keras/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/PeMSData/stl_perceptron_kfold3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/PeMSData/ManageWithCNN_RNN_cross_validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="90" />
+          <folding>
+            <element signature="e#27#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/PeMSData/ManageWithSVM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="11" column="53" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/spark/kmeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="60" column="12" lean-forward="false" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/spark/kmeans_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/zhengyu/LoadData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/PlotLearnCurve.py">
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/spark/mnist_mlp_spark.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="5" column="54" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="54" />
+        <state relative-caret-position="171">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithSVM.py">
+    <entry file="file:///Library/Python/2.7/site-packages/six-1.10.0-py2.7.egg/six.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="31" />
+        <state relative-caret-position="134">
+          <caret line="184" column="0" lean-forward="false" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithLSTM.py">
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/AE_STL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithCNN_RNN_cross_validation.py">
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/autoencoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="59" column="47" lean-forward="false" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="47" />
+        <state relative-caret-position="-1445">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithDT.py">
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/Conv_AE.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+        <state relative-caret-position="-665">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/ManageWithAE.py">
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/Con_AE.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/MyCNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/MyCNN_LSTM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-646">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/MyDeepAutoEncoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/MyDeepAutoEncoderAdvance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/test/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/PeMSData/TraffPreByDeepAE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/PeMSData/variational_autoencoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/PeMSData/PlotLearnCurve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/PeMSData/MyCNN_RNN_Model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-893">
+          <caret line="34" column="15" lean-forward="false" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/PeMSData/ManageWithConv_AE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/site-packages/keras/engine/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="763" column="26" lean-forward="false" selection-start-line="763" selection-start-column="26" selection-end-line="763" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/PeMSData/ManageWithAE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="23" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/liushaoji/tianchi/DataManager.py">
+    <entry file="file://$PROJECT_DIR$/src/liushaoji/ZhuJiaData/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
