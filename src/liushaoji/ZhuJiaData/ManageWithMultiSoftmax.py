@@ -35,11 +35,7 @@ model.add(Dense(10, init='uniform'))
 model.add(Activation('softmax'))
 
 sgd = SGD(lr=0.1, decay=1e-6, momentum=0.9, nesterov=True)
-model.compile(loss='binary_crossentropy',
-              optimizer='rmsprop',
-              metrics=['accuracy'])
+model.compile(loss='binary_crossentropy', optimizer='rmsprop', metrics=['accuracy'])
 
-model.fit(X_train, Y_train,
-          nb_epoch=20,
-          batch_size=16)
+model.fit(X_train, Y_train, nb_epoch=20, batch_size=16)
 score = model.evaluate(X_test, Y_test, batch_size=16)

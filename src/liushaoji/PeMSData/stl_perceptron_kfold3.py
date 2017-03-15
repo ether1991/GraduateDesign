@@ -47,16 +47,13 @@ def baseline_model():
     encoded = Dense(encoding_dim,activation='sigmoid') 
     #encoded = Convolution1D(nb_filter=32, filter_length=3, border_mode='same', activation='relu')
 
-    
    # model.add(Dense(8, input_dim=8, init='normal', activation='relu'))
     model.add(Embedding(101, 1, input_length=8, init='uniform'))
    # model.add(Dropout(0.2))
     model.add(Convolution1D(nb_filter=32, filter_length=3, border_mode='same', activation='relu'))
  
     model.add(MaxPooling1D(pool_length=2))
-   
-   
-    
+
     #model.add(Convolution1D(nb_filter=16, filter_length=3, border_mode='same', activation='relu'))
  
     #model.add(MaxPooling1D(pool_length=2))
@@ -84,7 +81,7 @@ def baseline_model():
     #model.add(Dense(4, init='normal', activation='relu'))
   #  model.add(Embedding(8, 32, input_length=8))
    # model.add(LSTM(100))
-   
+
     model.add(Dense(4, init='normal', activation='softmax'))
 # Compile model
     model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])

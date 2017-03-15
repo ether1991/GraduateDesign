@@ -20,12 +20,12 @@ from keras.utils.visualize_util import plot
 seed = 7
 numpy.random.seed(seed)
 # load dataset
-dataframe = pandas.read_csv('/Users/liushaoji/PycharmProjects/GraduateDesign/file/Day01_format_simply.csv')
+dataframe = pandas.read_csv('/Users/liushaoji/PycharmProjects/GraduateDesign/file/stl_block_r3.csv')
 dataframe.dropna(inplace=True)#drop the null records
 dataset = dataframe.values
 
-X = dataset[0:10000, 1:8].astype(float)
-Y = dataset[0:10000, 8]
+X = dataset[:, 5:13].astype(float)
+Y = dataset[:, 3]
 # encode class values as integers
 encoder = LabelEncoder()
 encoder.fit(Y)
@@ -37,11 +37,11 @@ dummy_y = np_utils.to_categorical(encoded_Y)
 def baseline_model():
     # create model
     model = Sequential()
-    encoding_dim = 7
+    encoding_dim = 8
 
     encoded = Dense(encoding_dim, activation='sigmoid')
 
-    model.add(Embedding(450000, 1, input_length=7, init='uniform'))
+    model.add(Embedding(450000, 1, input_length=8, init='uniform'))
     model.add(Convolution1D(nb_filter=32, filter_length=3, border_mode='same', activation='relu'))
     model.add(MaxPooling1D(pool_length=2))
     model.add(Dropout(0.2))

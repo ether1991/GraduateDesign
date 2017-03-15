@@ -25,14 +25,14 @@ classifiers = [
     MLPClassifier(alpha=1),
     AdaBoostClassifier()]
 
-inputFile = pandas.read_csv('/Users/liushaoji/PycharmProjects/GraduateDesign/file/Day01_format.csv');
+inputFile = pandas.read_csv('/Users/liushaoji/PycharmProjects/GraduateDesign/file/stl_block_r3.csv');
 inputFile.dropna(inplace=True)  # drop the NaN records
 inputData = inputFile.values
 # data feature
-data = inputData[0:1000, 1:8]
+data = inputData[:, 5:13]
 data = preprocessing.scale(data) #  normalization
 # label
-label = inputData[0:1000, 8]
+label = inputData[:, 3]
 
 X_train, X_test, Y_train, Y_test = train_test_split(data, label, test_size=0.2, random_state=0)
 
@@ -41,3 +41,10 @@ for name, clf in zip(names, classifiers):
     clf.fit(X_train, Y_train)
     score = clf.score(X_test, Y_test)
     print "%s = %f" % (name, score)
+
+
+# Nearest Neighbors = 0.832215
+# RBF SVM = 0.808725
+# Gaussian Process = 0.832215
+# Decision Tree = 0.795302
+# Random Forest = 0.788591

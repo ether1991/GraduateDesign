@@ -11,20 +11,20 @@ import pandas
 # from sklearn.model_selection import ShuffleSplit
 # from keras.wrappers.scikit_learn import KerasClassifier
 
-inputFile = pandas.read_csv('/Users/liushaoji/PycharmProjects/GraduateDesign/file/Day01_format_simply.csv')
+inputFile = pandas.read_csv('/Users/liushaoji/PycharmProjects/GraduateDesign/file/stl_block_r3.csv')
 inputFile.dropna(inplace=True)  # drop the NaN records
 inputData = inputFile.values
 # data feature
-data = inputData[0:10000, 1:8]
+data = inputData[:, 5:13]
 # label
-label = inputData[0:10000, 8]
+label = inputData[:, 3]
 X_train, X_test, Y_train, Y_test = train_test_split(data, label, test_size=0.2, random_state=0)
 
 max_features = 5
 maxlen = len(X_train[0])
 
 model = Sequential()
-model.add(Embedding(450000, 1, input_length=7, init='uniform'))
+model.add(Embedding(450000, 1, input_length=8, init='uniform'))
 model.add(LSTM(output_dim=128, activation='sigmoid', inner_activation='hard_sigmoid'))
 model.add(Dropout(0.2))
 model.add(Dense(1))
