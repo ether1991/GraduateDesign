@@ -20,19 +20,19 @@ from keras.utils.visualize_util import plot
 seed = 7
 numpy.random.seed(seed)
 # load dataset
-dataframe = pandas.read_csv('/Users/liushaoji/PycharmProjects/GraduateDesign/file/Day01_format_simply.csv')
+dataframe = pandas.read_csv('/Users/liushaoji/PycharmProjects/GraduateDesign/file/Day01_format.csv')
 dataframe.dropna(inplace=True)#drop the null records
 dataset = dataframe.values
 
-X = dataset[0:10000, 1:8].astype(float)
-Y = dataset[0:10000, 8]
+X = dataset[:, 1:8].astype(float)
+Y = dataset[:, 8]
 # encode class values as integers
 encoder = LabelEncoder()
 encoder.fit(Y)
 encoded_Y = encoder.transform(Y)
 # convert integers to dummy variables (i.e. one hot encoded)
-dummy_y = np_utils.to_categorical(encoded_Y)
-
+dummy_y = np_utils.to_categorical(encoded_Y, 10)
+print dummy_y.shape
 # define baseline model
 def baseline_model():
     # create model
@@ -49,7 +49,7 @@ def baseline_model():
     model.add(Dropout(0.2))
     model.add(encoded)
     model.add(Dense(256, activation='relu', W_constraint=maxnorm(3)))
-    model.add(Dense(4, init='normal', activation='softmax'))
+    model.add(Dense(10, init='normal', activation='softmax'))
     # Compile model
     model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
     # plot(model, to_file='model.png')

@@ -4,13 +4,13 @@ import pandas
 from sklearn.model_selection import train_test_split
 import numpy as np
 
-inputFile = pandas.read_csv('/Users/liushaoji/PycharmProjects/GraduateDesign/file/Day01_format_simply.csv')
+inputFile = pandas.read_csv('/Users/liushaoji/PycharmProjects/GraduateDesign/file/stl_block_r3.csv')
 inputFile.dropna(inplace=True)  # drop the NaN records
 inputData = inputFile.values
 # data feature
-data = inputData[:, 1:8]
+data = inputData[:, 5:13]
 # label
-label = inputData[:, 8]
+label = inputData[:, 3]
 
 X_train, X_test, Y_train, Y_test = train_test_split(data, label, test_size=0.1, random_state=0)
 
@@ -18,7 +18,7 @@ data_dim = 7
 
 # expected input data shape: (batch_size, timesteps, data_dim)
 model = Sequential()
-model.add(Embedding(450000, 1, input_length=7, init='uniform'))
+model.add(Embedding(450000, 1, input_length=8, init='uniform'))
 model.add(LSTM(128, activation='sigmoid', inner_activation='hard_sigmoid')) # returns a sequence of vectors of dimension 32
 model.add(LSTM(32, return_sequences=True))  # returns a sequence of vectors of dimension 32
 model.add(LSTM(16))  # return a single vector of dimension 32

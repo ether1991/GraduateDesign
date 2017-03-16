@@ -9,6 +9,10 @@ from sklearn.gaussian_process import GaussianProcessClassifier
 from sklearn.gaussian_process.kernels import RBF
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
+from sklearn.cross_validation import KFold
+from sklearn import preprocessing
+from sklearn.model_selection import train_test_split
+from sklearn.model_selection import cross_val_score
 from sklearn.naive_bayes import GaussianNB
 from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
 import pandas
@@ -33,18 +37,10 @@ data = inputData[:, 5:13]
 data = preprocessing.scale(data) #  normalization
 # label
 label = inputData[:, 3]
-
-X_train, X_test, Y_train, Y_test = train_test_split(data, label, test_size=0.2, random_state=0)
+seed=7
 
 # iterate over classifiers
 for name, clf in zip(names, classifiers):
-    clf.fit(X_train, Y_train)
-    score = clf.score(X_test, Y_test)
-    print "%s = %f" % (name, score)
-
-
-# Nearest Neighbors = 0.832215
-# RBF SVM = 0.808725
-# Gaussian Process = 0.832215
-# Decision Tree = 0.795302
-# Random Forest = 0.788591
+    kfold = KFold(n=len(data), n_folds=10, shuffle=True, random_state=seed)
+    results = cross_val_score(clf, data, label, cv=kfold)
+    print("Accuracy: %.2f%% (%.2f%%)" % (results.mean() * 100, results.std() * 100))

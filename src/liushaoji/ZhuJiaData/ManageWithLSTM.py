@@ -25,12 +25,12 @@ maxlen = len(X_train[0])
 
 model = Sequential()
 model.add(Embedding(450000, 1, input_length=8, init='uniform'))
-model.add(LSTM(output_dim=128, activation='sigmoid', inner_activation='hard_sigmoid'))
+model.add(LSTM(output_dim=128))
 model.add(Dropout(0.2))
 model.add(Dense(1))
 model.add(Activation('sigmoid'))
 
-model.compile(loss='binary_crossentropy',
+model.compile(loss='sparse_categorical_crossentropy',
               optimizer='rmsprop',
               metrics=['accuracy'])
 
